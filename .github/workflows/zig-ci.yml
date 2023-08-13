@@ -1,0 +1,36 @@
+name: Zig Build
+
+on: [push]
+
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        targets:
+          - x86_64-linux-gnu
+          - x86_64-linux-musl
+          - x86-linux-gnu
+          - x86-linux-musl
+          - aarch64-linux-gnu
+          - aarch64-linux-musl
+          - riscv64-linux-musl
+          - powerpc64-linux-musl
+          - x86_64-macos
+          - aarch64-macos
+          - x86-windows
+          - x86_64-windows
+          - x86_64-windows-msvc
+          - aarch64-windows
+
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - uses: mlugg/setup-zig@v1
+        with:
+          version: master
+      - name: Build Summary ${{ matrix.targets }}
+        run: zig build -Dtests --summary all -freference-trace -Dtarget=${{ matrix.targets }}
