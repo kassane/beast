@@ -75,8 +75,8 @@
             .hash = "122089b2862bce71ac1ad28c5021c1f0af8658ea596d5b7864c480bc6992a87ff705",
         },
         .asio = .{
-            .url = "git+https://github.com/boostorg/asio#4f837af78e9938b2224ff81ac1fab9677f98ede8",
-            .hash = "122040e41d1d8dce2b0cb572c3404a805b229feeaeedfb5798b4d0375925632cdd6e",
+            .url = "git+https://github.com/boostorg/asio#c83ee184586646d8497c41226cddec5126d6cc60",
+            .hash = "1220d17be5736927904fa941fdad08235ac3674aa26a818e336ca976ec017fc921da",
         },
         .tuple = .{
             .url = "git+https://github.com/boostorg/tuple#b67941dd7d03536a854b96f001954792311ab515",
