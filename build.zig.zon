@@ -3,16 +3,16 @@
     .version = "1.86.0",
     .dependencies = .{
         .core = .{
-            .url = "git+https://github.com/boostorg/core#3f36d507f2cd9ba55716336c3fb1843d951830ae",
-            .hash = "1220d8a194cc866a4fa9256d6fb0f6eab4a3e0d74e1c5736d4543a7ea0634bd440af",
+            .url = "git+https://github.com/boostorg/core#242b14bb690ca7b4f924b6dd35f397a2779813a3",
+            .hash = "122043257f5075e34f1572ef30a11121be1d9905373cde6f560807166edd8121fec3",
         },
         .algorithm = .{
             .url = "git+https://github.com/boostorg/algorithm#faac048d59948b1990c0a8772a050d8e47279343",
             .hash = "1220a4167dd25735ead67e3444575544b9bd9e497dc02932c3ff22e8bd14d9d92919",
         },
         .assert = .{
-            .url = "git+https://github.com/boostorg/assert#425b5ba31b0667439fb72dbf9ce425af6ef1b094",
-            .hash = "1220aa44030b2b9a3c3b18743150add36cfd631cbfd36a755e99c4be3fac1504fbc2",
+            .url = "git+https://github.com/boostorg/assert#242fdfb1373127331cb229379b50b1dba0f53e49",
+            .hash = "1220db8b269fba50cee2f36b060d70545ffe1e21abd079b78259defee3a055e52c70",
         },
         .config = .{
             .url = "git+https://github.com/boostorg/config#5734e160e08b8df898c7f747000f27a3aafb7b2b",
@@ -75,8 +75,8 @@
             .hash = "122089b2862bce71ac1ad28c5021c1f0af8658ea596d5b7864c480bc6992a87ff705",
         },
         .asio = .{
-            .url = "git+https://github.com/boostorg/asio#c83ee184586646d8497c41226cddec5126d6cc60",
-            .hash = "1220d17be5736927904fa941fdad08235ac3674aa26a818e336ca976ec017fc921da",
+            .url = "git+https://github.com/boostorg/asio#44238d033e1503c694782925d647811380a067c2",
+            .hash = "122077118eeb50d7e0fd15e1bcfa36128157238b4392e01b043d39bd468e262ba283",
         },
         .tuple = .{
             .url = "git+https://github.com/boostorg/tuple#b67941dd7d03536a854b96f001954792311ab515",
@@ -91,32 +91,32 @@
             .hash = "1220593051f676724aed989106f1e62ae1fbbe3dc753140f3ff85377f6c9ea4f4dc1",
         },
         .bind = .{
-            .url = "git+https://github.com/boostorg/bind#9fbfdcb3577e9427815d4f8cc25b3a25d5b9696b",
-            .hash = "12201cafacedbbf107886f20d809a67a7f23c496f0d51a345640a704214d42134aff",
+            .url = "git+https://github.com/boostorg/bind#97776ec7ba6217ecdfb8fd777dec85117de6f188",
+            .hash = "1220f8ddc31feec9ae1ef5df802a29b82c6e39589ee22a756e6aa8e859ca32d83157",
         },
         .container = .{
-            .url = "git+https://github.com/boostorg/container#6f10e52887432e9e8d054a4d7d4ccd5eded383a4",
-            .hash = "12205934c8c7a6c15b333fe15833d29c24512795a8b60de5f6a288e70f3b70ff92e6",
+            .url = "git+https://github.com/boostorg/container#4ea9c64316766590e297960f8b26bc04ac0af4d8",
+            .hash = "1220eda0432b254f54696ed1bbaa3b5baea63f0d9c1547886a22819ca1c2103471b3",
         },
         .endian = .{
             .url = "git+https://github.com/boostorg/endian#900fe18a117daa9ce023529b006f122ad4116749",
             .hash = "1220705bdd1fdfdf2f6172b7653231545b86d44fcfbedfc011263805f2dd20108c3b",
         },
         .intrusive = .{
-            .url = "git+https://github.com/boostorg/intrusive#92d126fc440b3cb140c54421d7387c1781d0f1cb",
-            .hash = "1220e44df6ec7f7e9408104300c15e3ab1ce228fa1d876e68811b92fdbfc03b4e6af",
+            .url = "git+https://github.com/boostorg/intrusive#0baa42f3280725f7dfee3d2f8e1f5e04267876ed",
+            .hash = "1220c3568f61b2458f52cd852d447a553a08a76fa591f72812519bdb6c2d8b9e7b36",
         },
         .logic = .{
             .url = "git+https://github.com/boostorg/logic#145778490c2d332c1411df6a5274a4b53ec3e091",
             .hash = "1220f08e4f920cee0d1eace9a65ea0452742cb623d98d78a1daa5af10fd35a4aaec8",
         },
         .optional = .{
-            .url = "git+https://github.com/boostorg/optional#b7a1d666f1fd658ff2d758dffe6a4cb9d11e07c1",
-            .hash = "1220d93254cf64e22cee0741b6698eb56bc3fa7eaaecad007bb62176071733c71e15",
+            .url = "git+https://github.com/boostorg/optional#8421c07517a0ae81bffce34689dc7540b4a4ff67",
+            .hash = "122096262bc1e6ad3ac05b7886f999c7af9bc6a7460dddb76b15f9cf03c1bddf5dca",
         },
         .smart_ptr = .{
-            .url = "git+https://github.com/boostorg/smart_ptr#c4ae5e0c429f2792b45e51a19c2153bf975b38ae",
-            .hash = "12203b4495ad48cc02451e759a07633580964160fa227bc55cd07739edd9efa36acb",
+            .url = "git+https://github.com/boostorg/smart_ptr#1650077eee2c62d05d9deeff06a75c058648101a",
+            .hash = "122034c2f98cfc20abeca7f67abfc208897aee6a9578541d152c110f971ecc4f9dd7",
         },
         .static_string = .{
             .url = "git+https://github.com/boostorg/static_string#bff5cb65a5cb9151aacaf56abe80125e0128f43a",
@@ -131,8 +131,8 @@
             .hash = "12204a9835f67f89a5eb4460c09864e1d84347358e8e02c080d72d26847eca39aa3f",
         },
         .json = .{
-            .url = "git+https://github.com/boostorg/json#e23879d75407f799088426b2f0e95170d2d5225a",
-            .hash = "1220ec478dcfa9b720e3c8077efa2371e569ba9d7a15d9ad856685ab833d02825f28",
+            .url = "git+https://github.com/boostorg/json#baff1cb7ff99f0c5d8f741f9dbacdb76bf603877",
+            .hash = "1220ac1d3e61c80ca0f2f66575786df73f678c1978375430fc2c399057a6d7a1342f",
         },
         .io = .{
             .url = "git+https://github.com/boostorg/io#342e4c6d10d586058818daa84201a2d301357a53",
